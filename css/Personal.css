@@ -1,0 +1,180 @@
+/*
+* @Author: lenovo
+* @Date:   2018-11-11 16:55:41
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-11-12 20:48:15
+*/
+/* html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+} */
+header{
+	width: 100%;
+	height: 1.46rem;
+	background: #6da1d0;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	display: flex;
+	justify-content: space-between; 
+	position: relative;
+}
+header .left{
+	width: 0.7rem;
+	height: 1.12rem;
+	line-height: 1.12rem;
+}
+header .z{
+	width: 2.95rem;
+	height: 0.76rem;
+	margin-top: 0.25rem;
+	text-align: center;
+}
+header .z h3{
+	font-size: 0.24rem;
+	color: #fff;
+}
+header .z p{
+	font-size: 0.21rem;
+	color: #fff;
+}
+header .right{
+	width: 0.7rem;
+	height: 1.12rem;
+	line-height: 1.12rem;
+}
+header .left i{
+	font-size: 0.44rem;
+	color: #fff;
+}
+header .right i{
+	font-size: 0.44rem;
+	color: #fff;
+}
+.xinxi{
+	width: 7.05rem;
+	height: 2.55rem;
+	border-radius: 0.1rem;
+	margin-left: 0.24rem;
+	position: absolute;
+	top: 1.14rem;
+	display: flex;
+	box-shadow: 0 0.05rem 0.04rem 0 #d3e3f1;
+	background: #fff;
+	padding-bottom: 0.02rem;
+}
+.xinxi .left{
+	width: 1.38rem;
+	height: 1.38rem;
+	border-radius: 50%;
+	margin-left: 0.2rem;
+	margin-top: 0.3rem;
+}
+.xinxi .left img{
+	width: 100%;
+	height: 100%;
+}
+.xinxi .right{
+	width: 4.38rem;
+	height: 2.15rem;
+	margin-left: 0.5rem;
+	margin-top: 0.3rem;
+}
+.xinxi .right p{
+	color: #000;
+	font-size: 0.22rem;
+}
+.xinxi .right h2{
+	color: #8a8a8a;
+	font-size: 0.22rem;
+	font-weight: normal;
+	margin-top: 0.15rem;
+}
+.xinxi .right .wz{
+	/* width: 1.93rem; */
+	height: 0.3rem;
+	display: flex;
+	margin-top: 0.15rem;
+}
+.xinxi .right h3{
+	color: #8a8a8a;
+	font-size: 0.22rem;
+	font-weight: normal;
+	margin-top: 0.15rem;
+}
+.xinxi .right h3 i{
+	color: #53b2e6;
+	font-size: 0.35rem;
+}
+.xinxi .right .dh{
+	/* width: 1.93rem; */
+	height: 0.3rem;
+	display: flex;
+	margin-top: 0.12rem;
+	color: #8a8a8a;
+	font-size: 0.18rem;
+}
+.xinxi .right .dh i{
+	color: #53b2e6;
+	font-size: 0.3rem;
+}
+.neirong{
+	width: 100%;
+	height: 5.45rem;
+	margin-top: 2.6rem;
+	padding-right: 0.24rem;
+	padding-left: 0.24rem;
+}
+.neirong li{
+	width: 100%;
+	height: 0.9rem;
+	border-radius: 0.1rem;
+	margin-bottom: 0.24rem;
+	box-shadow: 0 0.05rem 0.04rem 0 #d3e3f1;
+	display: flex;
+	padding-left: 0.44rem;
+	padding-top: 0.2rem;
+}
+.neirong li p{
+	color: #000;
+	font-size: 0.24rem;
+	margin-left: 0.25rem;
+	margin-top: 0.2rem;
+}
+.neirong li i{
+	font-size: 0.53rem;
+	color: #1296db;
+}
+.xia{
+	width: 100%;
+	height: 0.65rem;
+	/* background: #d2e2f0; */
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	
+}
+.xia a{
+	display: block;
+	width: 25%;
+	height: 100%;
+	/* background: red; */
+	float: left;
+}
+.xia a h3{
+	color: #c4c4c4;
+	font-size: 0.18rem;
+	text-align: center;
+	/* background: #1296db; */
+}
+.xia a .tu{
+	width: 0.35rem;
+	height: 0.36rem;
+	/* background: blue; */
+	margin-left: 0.75rem;
+}
+.xia a img{
+	display: block;
+	width: 0.35rem;
+	height: 0.36rem;
+}

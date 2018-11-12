@@ -1,0 +1,297 @@
+/*
+* @Author: lenovo
+* @Date:   2018-11-07 11:07:44
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-11-12 20:38:27
+*/
+html,body{
+	width: 100%;
+	height: 100%;
+}
+header{
+	width: 100%;
+	height: 4.51rem;
+	background: #3e8ad0;
+	background-image: url('../img/juxing.png');
+	background-size: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+}
+header img{
+	width: 100%;
+	height: 100%;
+}
+header .top{
+	width: 100%;
+	height: 1.3rem;
+	display: flex;
+	flex-direction: row;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+}
+header .top .left{
+	width: 1.65rem;
+	height: 1.3rem;
+}
+header .top .zhong{
+	width: 3.74rem;
+	height: 1.3rem;
+	font-size: 0.35rem;
+	text-align: center;
+	line-height: 1.3rem;
+	color: #fff;
+}
+header .top .right{
+	width: 1.65rem;
+	height: 1.3rem;
+}
+header .list{
+	width: 100%;
+	height: 3.21rem;
+	/* background: green; */
+	padding-right: 0.24rem;
+	padding-left: 0.24rem;
+	padding-top: 0.46rem;
+	display: flex;
+	/* flex-direction: row; */
+}
+header .list .tu{
+	width: 1.4rem;
+	height: 1.88rem;
+}
+header .list img{
+	display: block;
+	width: 1.4rem;
+	height: 1.88rem;
+	margin-left: 0.56rem;
+}
+header .list .z{
+	height: 0.24rem;
+	/* background: yellow; */
+	font-size: 0.24rem;
+	color: #fff;
+	margin-left: 0.84rem;
+}
+header .list .z2{
+	height: 0.24rem;
+	/* background: pink; */
+	font-size: 0.24rem;
+	color: #fff;
+	margin-left: 0.84rem;
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+header .list .z3{
+	height: 0.24rem;
+	/* background: orange; */
+	margin-left: 0.84rem;
+	display: flex;
+}
+header .list .z3 i{
+	font-size: 0.23rem;
+	color: #fff;
+	margin-right: 0.05rem;
+}
+header .list .z4{
+	height: 0.24rem;
+	/* background: pink; */
+	font-size: 0.24rem;
+	color: #fff;
+	margin-left: 0.84rem;
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+header .list .z4 i{
+	font-size: 0.23rem;
+	color: #fff;
+	margin-right: 0.05rem;
+}
+.sps ul{
+	width: 100%;
+ 	height: 0.4rem;
+ 	font-size: 0.3rem;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+ 	margin-top: 0.62rem;
+}
+.sps ul .shang{
+	border-bottom: 0.01rem solid #3e8ad0;
+	padding-bottom: 0.05rem;
+}
+.nei{
+	width: 100%;
+	padding-left: 0.24rem;
+	display: flex;
+	margin-top: 0.32rem;
+	margin-bottom: 1.01rem;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	height: 6.4rem;
+}
+.nei .left{
+	width: 1.44rem;
+	height: 3.16rem;
+	margin-right: 0.21rem;
+	display: flex;
+	justify-content: center;
+}
+.nei .left li{
+	width: 1.44rem;
+	height: 0.53rem;
+	line-height: 0.53rem;
+	text-align: center;
+	font-size: 0.24rem;
+	color: #676767;
+	background: #e5e6e5;
+	margin-bottom: 0.13rem;
+}
+.nei .left .yuwan{
+	background: #3e8ad0;
+	color: #fff;
+}
+.nei .right{
+	width: 100%;
+	height: 6.4rem;
+	overflow-y: auto;
+	overflow-x: hidden;
+
+}
+.nei .right li{
+	width: 5.4rem;
+	height: 1.9rem;
+	background: #fff;
+	margin-bottom: 0.24rem;
+	display: flex;
+	box-shadow: 0 0 0.05rem 0.02rem rgba(0, 0, 0, 0.2);
+}
+.nei .right li .tu{
+	padding-left: 0.2rem;
+	padding-top: 0.24rem;
+	/* background: red; */
+}
+.nei .right li img{
+	display: block;
+	width: 0.99rem;
+	height: 1.41rem;
+}
+.nei .right li .z{
+	width: 100%;
+	margin-top: 0.24rem;
+	/* background: yellow; */
+}
+.nei .right li .z .r{
+	width: 4.16rem;
+	display: flex;
+	padding-right: 2.04rem;
+	margin-bottom: 0.45rem;
+	margin-left: 0.1rem;
+}
+.nei .right li .z .r .n1{
+	/* width: 0.8rem; */
+	height: 0.24rem;
+	margin-right: 0.4rem;
+	color: #333;
+	font-size: 0.22rem;
+	text-align: center;
+}
+.nei .right li .z .r .n2{
+	/* width: 0.9rem; */
+	height: 0.15rem;
+	color: #737373;
+	font-size: 0.15rem;
+	text-align: center;
+}
+.nei .right li .z .z1{
+	width: 4rem;
+	height: 0.3rem;
+	/* background: blue; */
+	margin-top: 0.35rem;
+	font-size: 0.18rem;
+	color: #737373;
+	margin-left: 0.1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.nei .right li .z .z2{
+	width: 3.89rem;
+	height: 0.37rem;
+	margin-top: 0.2rem;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 0.1rem;
+}
+.nei .right li .z .z2 .qian{
+	color: #ff0000;
+	font-size: 0.2rem;
+	line-height: 0.37rem;
+}
+.nei .right li .z .z2 .jia{
+	width: 0.36rem;
+	height: 0.36rem;
+}
+.nei .right li .z .z2 .jia img{
+	width: 100%;
+	height: 100%;
+}
+.dibu{
+	width: 100%;
+	height: 1.01rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+}
+.dibu .left{
+	width: 6.03rem;
+	height: 1.01rem;
+	background: #fff;
+	padding-left: 0.24rem;
+	padding-left: 0.52rem;
+	padding-top: 0.32rem;
+	display: flex;
+}
+.dibu .left .qwe{
+	width: 0.51rem;
+	height: 0.32rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dibu .left .qwe i{
+	font-size: 0.33rem;
+	color: #333;
+	text-align: center;
+	line-height: 1.01rem;
+}
+.dibu .right{
+	width: 100%;
+	height: 0.4rem;
+	margin-left: 0.2rem;
+	border-right: 1px solid #7e7e7e;
+}
+.dibu .right .qwe1{
+	width: 100%;
+	height: 0.18rem;
+	margin-bottom: 0.05rem;
+	font-size: 0.15rem;
+	color: #7e7e7e;
+}
+.dibu .right .qwe2{
+	width: 100%;
+	height: 0.18rem;
+	font-size: 0.15rem;
+	color: #7e7e7e;
+}
+.dibu .right1{
+	width: 1.46rem;
+	height: 1rem;
+	background: #fff;
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 1rem;
+	color: #7e7e7e;
+}

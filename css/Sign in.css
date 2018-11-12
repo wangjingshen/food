@@ -1,0 +1,131 @@
+/*
+* @Author: lenovo
+* @Date:   2018-11-11 15:51:36
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-11-12 20:13:38
+*/
+html,body{
+	width: 100%;
+	height: 100%;
+	
+}
+header{
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/bei.png');
+	background-size: cover;
+	padding-top: 0.55rem;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+}
+header .top{
+	width: 2.1rem;
+	height: 0.66rem;
+	background: #54c9ff;
+	margin-left: 4.97rem;
+	border-radius: 0.33rem;
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.66rem;
+}
+header .zhong{
+	width: 100%;
+	height: 5.3rem;
+	background: #fff;
+	margin-top: 2.4rem;
+	border-radius: 0.1rem;
+	padding-left: 0.5rem;
+}
+header .zhong .top1{
+	width: 2.2rem;
+	height: 0.8rem;
+	margin: 0 auto;
+	font-size: 0.34rem;
+	color: #54c9ff;
+	text-align: center;
+	margin-bottom: 0.85rem;
+}
+header .zhong li{
+	width: 6rem;
+	height: 0.5rem;
+	margin-top: 0.4rem;
+	display: flex;
+	line-height: 0.5rem;
+}
+header .zhong li .left{
+	width: 0.44rem;
+	height: 0.46rem;
+	display: flex;
+}
+header .zhong li .left i{
+	font-size: 0.46rem;
+	color: #1296db;
+}
+header .zhong li input{
+	border: 0;
+	border-bottom: 0.01rem solid #54c9ff;
+	margin-left: 0.05rem;
+}
+header .zhong li p{
+	font-size: 0.23rem;
+	color: #54c9ff;
+}
+header .cuo{
+	height: 0.22rem;
+	font-size: 0.22rem;
+	color: #999999;
+}
+header .xia{
+	width: 2.1rem;
+	height: 0.66rem;
+	background: #999999;
+	border-radius: 0.33rem;
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.66rem;
+	margin-top: 0.3rem;
+	margin-left: 2.1rem;
+}
+header .dibu{
+	width: 100%;
+	height: 2.02rem;
+	margin-top: 0.9rem;
+}
+header .dibu .d{
+	width: 100%;
+	height: 0.66rem;
+	text-align: center;
+}
+header .dibu .d h3{
+	font-size: 0.22rem;
+	color: #54c9ff;
+}
+header .dibu .d p{
+	font-size: 0.22rem;
+	color: #54c9ff;
+}
+header .dibu .d1{
+	width: 100%;
+	height: 1.26rem;
+}
+header .dibu .d1 ul{
+	display: flex;
+	padding-left: 0.86rem;
+}
+header .dibu .d1 li{
+	width: 0.93rem;
+	height: 0.93rem;
+	border-radius: 50%;
+	background: #54c9ff;
+	margin-right: 1rem;
+	display: flex;
+	padding-left: 0.2rem;
+}
+header .dibu .d1 li i{
+	font-size: 0.44rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.93rem;
+}
